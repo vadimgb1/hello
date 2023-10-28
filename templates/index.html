@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Enter name
+{% endblock %}
+
+{% block body %}
+<img src="/static/gerbtspu118.png">
+
+<form action="/greet" method = "POST">
+    <input type="text" name="first_name" placeholder="Имя">
+    <button type="submit">Жми</button>
+</form>
+{% endblock %}
